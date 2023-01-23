@@ -1,2 +1,2 @@
 # logo
-just fun implementation to rorate a logo
+just fun implementation to rotate a logo
