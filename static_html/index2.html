@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>MHP Logo example</title>
+  <style>
+  	.rotate {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+  	  animation: rotation 6s infinite linear;
+    }
+    @keyframes rotation {
+	  from {
+	    transform: rotate(0deg);
+	  }
+	  to {
+	    transform: rotate(359deg);
+	  }
+	}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="../logo.png" alt="MHP-Logo" class="rotate">
+  </div>
+</body>
+</html>
